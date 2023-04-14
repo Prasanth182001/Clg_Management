@@ -1,0 +1,82 @@
+<html>
+<head><title>view books</title>
+<style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+    }
+    body{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(130, 134, 130);
+    }
+    form{
+        height: 25rem;
+        width: 35rem;
+        background: rgba(225,225,225,0.06);
+        box-shadow:0 6px 28px rgb(37, 36, 36);
+        border-radius: 30px;
+        border-left: 1px solid rgba(248, 246, 246, 0.3);
+        border-top: 1px solid rgba(225,225,225,0.3);
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+        opacity: .7;
+        letter-spacing: 2px;
+        margin: 5%;
+        margin-bottom:5% ;
+        margin-right: 30px;
+        padding: 18px;
+    }
+    label{
+        color: white;
+        opacity: .8;
+        font-size: 15px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+        margin-left: 13%;
+        margin-bottom:8% ;
+        margin-top: 8%; 
+    }
+    select{
+        width: 70%;
+        border: none;
+        outline: none;
+        background: transparent;
+        opacity: .5;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+        margin-left: 13%;
+        margin-bottom: 13px;
+        margin-top: 13px;
+    }
+    option{
+        background:rgb(56, 48, 48);
+    }
+    
+</style>
+</head>
+<body>
+<form>
+<h1>View Available Books</h1>
+<label> Book Name   /   Author   /   Price</label>
+<select>
+<option name="0">---------------------------------------------</option>
+<option name='book1'>The Guns of August/Jared Diamond/Rs:690</option>
+<option name='book2'>Guns,Germs,and Steel/Barbara W.Tuchman/Rs:499</option>
+<option name='book3'>A Beautiful Mind/Sylvia Nasar/Rs:468</option>
+<option name='book4'>The Number sense/Stanistas Dehaene/Rs:999</option>
+<option name='book5'>Onece Upon a Numbers/John Allen Paulos/Rs:599</option>
+<option name="book6">King Of Raone/Durai Prasanth/Rs:299</option>
+</select>
+</form>
+</body>
+</html>

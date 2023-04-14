@@ -1,0 +1,95 @@
+<html>
+<head><title>add event</title>
+<style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+    }
+    body{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(130, 134, 130);
+    }
+    form{
+        height: 25rem;
+        width: 35rem;
+        background: rgba(225,225,225,0.06);
+        box-shadow:0 6px 28px rgb(37, 36, 36);
+        border-radius: 30px;
+        border-left: 1px solid rgba(248, 246, 246, 0.3);
+        border-top: 1px solid rgba(225,225,225,0.3);
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+        opacity: .7;
+        letter-spacing: 2px;
+        margin: 5%;
+        margin-bottom:5% ;
+        margin-right: 30px;
+        padding: 18px;
+    }
+    label{
+        color: white;
+        opacity: .8;
+        font-size: 15px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+        margin-left: 13%;
+        margin-bottom:5% ;
+        margin-top: 5%; 
+    }
+    input{
+        width: 70%;
+        border: none;
+        outline: none;
+        background: transparent;
+        opacity: .8;
+        color: white;
+        border-bottom: 1px solid rgba(225,225,225,0.6);
+        margin-left:15%;
+        margin-top:5% ;
+        margin-bottom:5% ;
+
+    }
+    button{
+        width: 40%;
+        height: 8%;
+        border: none;
+        outline: none;
+        background:transparent;
+        color: white;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+        box-shadow: 3px 3px 5px rgba(76, 77, 80, 0.37);
+        border-left: 1px solid rgba(225,225,225,0.3);
+        border-top: 1px solid rgba(255, 253, 253, 0.3);
+        margin-left: 30%;
+        margin-top: 5%;
+        opacity: .8;
+    }
+    .but:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        opacity: .5;
+    }
+</style>
+</head>
+<body>
+<form>
+<h1>Add Event</h1>
+<label>Event Name :</label>
+<input type='text' name='en'></input>
+<label>Date :</label>
+<input type='date' name='date4'></input>
+<button class="but">Add</button>
+</form>
+</body>
+</html>
